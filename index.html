@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilos de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- estilos propios -->
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+
+    <title>Aplicando Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid menu">
+                <a class="navbar-brand menu__titulo" href="index.html">Ramé</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle menuUl" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sobre Nosotros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Equipo</a></li>
+                                <li><a class="dropdown-item" href="#">Historia</a></li>
+                                <li><a class="dropdown-item" href="#">Comienzos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="primera">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button subtitulos" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Introducción
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <strong>Lorem ipsum dolor sit,</strong> amet consectetur adipisicing elit. Ipsa consectetur
+                            quod
+                            perferendis repudiandae esse, delectus deserunt debitis necessitatibus beatae quis
+                            molestias. Dicta vel quos tenetur doloribus distinctio quaerat reprehenderit officia
+                            aliquid est et obcaecati, voluptatem laborum recusandae aut! Architecto amet facere
+                            deleniti, nesciunt ratione error aliquam laboriosam optio aliquid omnis.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed subtitulos" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Nuestros Productos
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam
+                                molestias voluptas sequi libero error numquam officia molestiae quam non?</strong>Quam
+                            minima
+                            doloribus, debitis ex expedita aspernatur alias, repellendus voluptatum distinctio
+                            molestiae vero, tempora hic. Saepe quisquam ipsa earum optio similique vero omnis velit
+                            minima, nam, rem voluptates maiores quos alias dolorem veniam consequatur unde maxime ex
+                            labore nulla nesciunt repudiandae odit voluptatem temporibus! Adipisci ipsum reiciendis,
+                            sequi quidem praesentium, eveniet odit est totam nesciunt veritatis cupiditate tempora
+                            rem! Reiciendis, amet saepe? Eveniet, error quae natus aliquid dolorum distinctio
+                            eligendi dolore adipisci, laborum reiciendis ducimus reprehenderit quaerat explicabo.
+                            Harum, adipisci.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed subtitulos" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Nuestros Servicios
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non incidunt aliquid
+                                quaerat temporibus quod aut, ipsa itaque quos natus.</strong>Atque eos sunt,
+                            perspiciatis
+                            exercitationem error similique dolorum debitis laboriosam architecto explicabo eaque
+                            tenetur odio laudantium ab! Incidunt perferendis itaque soluta dolore aliquid, sequi
+                            eius totam est, modi quo laborum magni sunt quidem dolor assumenda aliquam iste,
+                            expedita veritatis maiores. Necessitatibus officiis similique dicta, vel illo, in
+                            consequuntur iusto dolorum sunt eius quae facere quam asperiores? Ut, eaque rerum nihil
+                            quasi officiis magnam labore tempore adipisci et inventore natus itaque debitis, aliquam
+                            omnis ducimus veritatis ipsum dolores quam! Nesciunt perspiciatis maxime aliquid odit
+                            culpa magnam quasi harum unde dolores, eum porro in tenetur minus quis ea ratione eius
+                            suscipit facilis adipisci reprehenderit sunt itaque? Sunt aspernatur enim incidunt nisi
+                            minima? Deleniti, minima labore. Nesciunt omnis quaerat voluptatibus distinctio quos,
+                            autem corporis soluta nobis sed laboriosam necessitatibus delectus id? Nulla id
+                            voluptatibus odio non. Assumenda eligendi non possimus rem, amet blanditiis corrupti
+                            itaque officia culpa ullam velit laborum quis cupiditate quisquam, beatae ipsam ipsum
+                            dolorem! Excepturi ipsa ducimus perferendis exercitationem? Incidunt odit minus velit
+                            minima iusto, laudantium pariatur placeat officia mollitia ut tenetur at et sapiente
+                            repellendus consequuntur beatae saepe voluptas architecto omnis? Nemo eos asperiores,
+                            saepe, laboriosam quo obcaecati, aperiam dolorum eaque dignissimos perspiciatis quaerat
+                            pariatur esse optio tenetur illum. Asperiores quisquam ab blanditiis quae exercitationem
+                            quos, magni voluptatibus quia labore doloremque sapiente veritatis beatae. Deleniti
+                            quasi, cumque porro delectus sapiente modi saepe quo, aliquid, hic praesentium sint
+                            nihil deserunt similique voluptas laborum id corrupti. Voluptas iste magni nesciunt
+                            aliquam omnis sunt, sit facere ratione quisquam repellendus veniam? Placeat, nesciunt
+                            consectetur! Maxime beatae unde quas necessitatibus delectus dolorum, harum, iusto illum
+                            tempore veniam maiores dolores obcaecati et. Perspiciatis ad quam cumque. Iste libero,
+                            molestias tempore excepturi ut laborum magnam ipsum itaque quas doloribus. Dolor, amet
+                            commodi accusantium facere fugiat porro corporis possimus laboriosam esse. Perspiciatis
+                            aperiam nostrum ducimus in ipsum, excepturi illum? Placeat officia omnis iure ullam
+                            perferendis at facere numquam corporis. Maiores provident at, accusantium fuga ab veniam
+                            quos harum voluptate corporis delectus! Rem facilis commodi sit fugit ratione!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="segunda">
+            <h2>
+                Contáctenos
+            </h2>
+            <div class="form">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="Agustín" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="validationCustom02" value="Dutra da Silveira" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Email</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <input type="text" class="form-control" id="validationCustomUsername"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- scripts bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
